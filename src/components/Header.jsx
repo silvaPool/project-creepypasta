@@ -212,7 +212,7 @@ export default function PrimarySearchAppBar() {
             >
               <AccountCircle />
             </IconButton> */}
-            <UserButton />
+            <UserButton showName='true' />
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
