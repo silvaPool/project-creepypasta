@@ -3,6 +3,7 @@ import './App.css'
 import PrimarySearchAppBar from './components/Header'
 import Title from './components/Title'
 import Cards from './components/Cards'
+import Footer from './components/Footer'
 
 function App() {
   
@@ -24,6 +25,8 @@ function App() {
   <Title />
 
   <Cards />
+
+  <Footer />
       
     </>
   )
