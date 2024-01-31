@@ -1,6 +1,7 @@
 import { SignInButton, SignOutButton, SignedIn, SignedOut } from '@clerk/clerk-react'
 import './App.css'
 import PrimarySearchAppBar from './components/Header'
+import Title from './components/Title'
 
 function App() {
   
@@ -18,6 +19,8 @@ function App() {
     </SignedIn> */}
 
   <PrimarySearchAppBar />
+
+  <Title />
       
     </>
   )
