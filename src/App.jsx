@@ -1,9 +1,10 @@
-import { SignInButton, SignOutButton, SignedIn, SignedOut } from '@clerk/clerk-react'
+import { SignInButton, SignOutButton, SignedIn, SignedOut, UserButton } from '@clerk/clerk-react'
 import './App.css'
 import PrimarySearchAppBar from './components/Header'
 import Title from './components/Title'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
+import LayoutLogin from './components/LayoutLogin'
 
 function App() {
   
@@ -11,22 +12,23 @@ function App() {
   return (
     <>
 
-    {/* <SignedOut>
-    <SignInButton />
-      Nirvana
+    <SignedOut>
+     <LayoutLogin />
     </SignedOut>
     <SignedIn>
-      <SignOutButton afterSignOutUrl="/" />
-      Conteúdo privado
-    </SignedIn> */}
+    {/* <UserButton /> */}
+      {/* <SignOutButton afterSignOutUrl="/" /> */}
+      <PrimarySearchAppBar />
+      <Title />
+      <Cards />
+     <Footer />
+    </SignedIn>
 
-  <PrimarySearchAppBar />
+  
 
-  <Title />
+  
 
-  <Cards />
-
-  <Footer />
+ 
       
     </>
   )
