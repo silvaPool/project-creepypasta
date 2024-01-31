@@ -2,6 +2,7 @@ import { SignInButton, SignOutButton, SignedIn, SignedOut } from '@clerk/clerk-r
 import './App.css'
 import PrimarySearchAppBar from './components/Header'
 import Title from './components/Title'
+import Cards from './components/Cards'
 
 function App() {
   
@@ -21,6 +22,8 @@ function App() {
   <PrimarySearchAppBar />
 
   <Title />
+
+  <Cards />
       
     </>
   )
