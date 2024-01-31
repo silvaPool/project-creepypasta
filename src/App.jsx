@@ -1,5 +1,6 @@
 import { SignInButton, SignOutButton, SignedIn, SignedOut } from '@clerk/clerk-react'
 import './App.css'
+import PrimarySearchAppBar from './components/Header'
 
 function App() {
   
@@ -7,14 +8,16 @@ function App() {
   return (
     <>
 
-    <SignedOut>
+    {/* <SignedOut>
     <SignInButton />
       Nirvana
     </SignedOut>
     <SignedIn>
       <SignOutButton afterSignOutUrl="/" />
       Conteúdo privado
-    </SignedIn>
+    </SignedIn> */}
+
+  <PrimarySearchAppBar />
       
     </>
   )
