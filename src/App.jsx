@@ -8,6 +8,7 @@ import LayoutLogin from './components/LayoutLogin'
 import { useState } from 'react';
 import {storage} from "./firebase";
 import { ref } from 'firebase/storage'
+import CardHistoria from './pages/CardHistoria'
 
 
 function App() {
@@ -28,7 +29,7 @@ function App() {
   return (
     <>
 
-    <SignedOut>
+   <SignedOut>
      <LayoutLogin />
     </SignedOut>
     <SignedIn>
@@ -37,9 +38,9 @@ function App() {
       <Title />
       <Cards />
      <Footer />
-    </SignedIn>
+    </SignedIn> 
 
-  
+      {/* <CardHistoria /> */}
 
    
    {/* <div className="App">

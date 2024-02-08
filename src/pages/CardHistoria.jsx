@@ -1,28 +1,38 @@
-import { useEffect, useState, useParams } from 'react';
+import { useEffect, useState } from 'react';
 import cards from '../data/Cards';
+import { Box, Typography } from '@mui/material';
+import { useParams } from 'react-router-dom';
 
 
-function filterCards(card) {
-    const data = cards?.find(item => item.titulo === card);
+// function filterCards(card) {
+//     const data = cards?.find(item => item.titulo === card);
 
-    return data;
-}
+
+//     console.log(data);
+//     console.log(card);
+
+//     return data;
+// }
 
 
 function CardHistoria() {
 
-    const [stateData, setStateData] = useState({});
-    const { type } = useParams();
+    // const [stateData, setStateData] = useState({});
+    // const { type } = useParams();
 
 
-    useEffect(() => {
-        const dataFilter = filterCards(type);
-        setStateData(dataFilter ?? {});
+    // useEffect(() => {
+    //     const dataFilter = filterCards(type);
+    //     setStateData(dataFilter ?? {});
 
-    }, [cards, type]);
+    // }, [cards, type]);
 
     return (
-        <div>ddd</div>
+        <Box>
+            <Typography>
+                {cards[2].titulo}
+            </Typography>
+        </Box>
     )
 }
 
