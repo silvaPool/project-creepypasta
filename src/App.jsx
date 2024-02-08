@@ -9,6 +9,7 @@ import { useState } from 'react';
 import {storage} from "./firebase";
 import { ref } from 'firebase/storage'
 import CardHistoria from './pages/CardHistoria'
+import Rota from './routes/Router'
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
      <Footer />
     </SignedIn> 
 
-      {/* <CardHistoria /> */}
+    
+     
 
    
    {/* <div className="App">

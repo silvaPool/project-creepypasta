@@ -2,11 +2,13 @@ import { SignInButton } from "@clerk/clerk-react";
 import { Box } from "@mui/material";
 import Typography from '@mui/material/Typography';
 import StyledLayoutLogin from "./StyledLayoutLogin";
-
-
+import { useNavigate } from "react-router-dom";
 
 
 function LayoutLogin() {
+
+    
+
     return (
         <StyledLayoutLogin>
 
