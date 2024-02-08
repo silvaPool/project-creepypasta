@@ -5,8 +5,24 @@ import Title from './components/Title'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 import LayoutLogin from './components/LayoutLogin'
+import { useState } from 'react';
+import {storage} from "./firebase";
+import { ref } from 'firebase/storage'
+
 
 function App() {
+
+  // const [image, setImage] = useState('');
+  // const upload = () => {
+
+
+  //   if (image === null) 
+  //     return;
+  //     const ref = ref(storage, `/images/${image.name}`).put(image)
+  //     .on("state_changed", alert("sucess"), alert);
+  // }
+ 
+
   
 
   return (
@@ -16,8 +32,7 @@ function App() {
      <LayoutLogin />
     </SignedOut>
     <SignedIn>
-    {/* <UserButton /> */}
-      {/* <SignOutButton afterSignOutUrl="/" /> */}
+  
       <PrimarySearchAppBar />
       <Title />
       <Cards />
@@ -26,7 +41,14 @@ function App() {
 
   
 
-  
+   
+   {/* <div className="App">
+      <center>
+      <input type="file" onChange={(e) => {setImage(e.target.files[0])}}/>
+      <button onClick={upload}>Upload</button>
+      </center>
+
+      </div> */}
 
  
       
