@@ -10,6 +10,7 @@ import {storage} from "./firebase";
 import { ref } from 'firebase/storage'
 import CardHistoria from './pages/CardHistoria'
 import Rota from './routes/Router'
+import FeedBack from './components/FeedBack'
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
   return (
     <>
 
-   <SignedOut>
+   {/* <SignedOut>
      <LayoutLogin />
     </SignedOut>
     <SignedIn>
@@ -39,7 +40,9 @@ function App() {
       <Title />
       <Cards />
      <Footer />
-    </SignedIn> 
+    </SignedIn>  */}
+
+    <FeedBack />
 
     
      
