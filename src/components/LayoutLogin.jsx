@@ -2,12 +2,14 @@ import { SignInButton } from "@clerk/clerk-react";
 import { Box } from "@mui/material";
 import Typography from '@mui/material/Typography';
 import StyledLayoutLogin from "./StyledLayoutLogin";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 function LayoutLogin() {
 
-    
+    const navigate = useNavigate();
+
+
 
     return (
         <StyledLayoutLogin>
@@ -24,9 +26,11 @@ function LayoutLogin() {
                 </Typography>
 
 
-                <SignInButton>
+                <SignInButton afterSignInUrl="/dashboard">
                     Entrar    
                 </SignInButton> 
+
+         
 
            </Box>
 
