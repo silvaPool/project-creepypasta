@@ -18,6 +18,13 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import cards from "../data/Cards";
 
 function Cards() {
+
+  const handleTwitterShare = (contentLink) => {
+    const shareText = `Confira esta história de terror interessante! ${contentLink}`;
+    const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
+    window.open(twitterShareUrl, '_blank');
+  }
+
   return (
     <Box
       sx={{
@@ -96,6 +103,7 @@ function Cards() {
           </a>
         </Grid>
 
+         
         <Grid item xl={4} md={4}>
           <a>
             <Card sx={{ maxWidth: 345 }}>
@@ -116,13 +124,16 @@ function Cards() {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                
+                <Button size="small" color="primary" onClick={() => handleTwitterShare(item.url)}>
+                  kkkkk
                 </Button>
+                
               </CardActions>
             </Card>
           </a>
         </Grid>
+      
 
         <Grid item xl={4} md={4}>
           <a>

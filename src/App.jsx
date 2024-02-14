@@ -15,7 +15,7 @@ import { useState } from "react";
 import { storage } from "./firebase";
 import { ref } from "firebase/storage";
 import CardHistoria from "./pages/CardHistoria";
-import Rota from "./routes/Router";
+import Rota from "./routes/Routas";
 import AuthProvider from "./providers/AuthProvider";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
@@ -41,6 +41,7 @@ function App() {
             <Route path="/" element={<LayoutLogin />} />
             <Route path="dashboard" element={<LayoutRoutes />} />
           </Routes>
+
         </AuthProvider>
       </div>
 
