@@ -2,11 +2,13 @@ import { Box, Button, Card, CardActionArea, CardActions, CardContent, Grid, Typo
 import cards from "../data/Cards";
 
 function Cards() {
+
+
   const handleTwitterShare = (contentLink) => {
+
     const shareText = `Confira este conteúdo interessante! ${contentLink}`;
-    const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-      shareText
-    )}`;
+
+    const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}`;
     window.open(twitterShareUrl, "_blank");
   };
 

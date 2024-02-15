@@ -67,3 +67,17 @@
     font-size: 20px;
     font-weight: bolder;
   }
+
+  .swiper-container {
+    height: 80vh;
+  }
+
+  .slide-item {
+    margin: 10px;
+  }
+
+  .slide-item img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }

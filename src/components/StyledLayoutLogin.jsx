@@ -5,14 +5,14 @@ import Samarinha from '../assets/images/samara.jpg';
 const StyledLayoutLogin = styled(Box)`
 && {
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
    height: 100vh;
-   padding-top: 125px;
+   color: black;
    text-align: center;
-   background-image: url(${Samarinha});
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;    
+   background-color: #FFFAFA;
+   border: 1px solid blue;
 }
       
 
