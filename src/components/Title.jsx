@@ -1,7 +1,16 @@
 import { SignOutButton, SignedOut } from "@clerk/clerk-react";
 import { Box, Button, Typography } from "@mui/material";
 
+
+
+
 function Title() {
+
+
+    function formulario() {
+      window.open("https://form.jotform.com/240523126805651"); 
+    }
+  
   return (
     <Box
       sx={{
@@ -20,7 +29,7 @@ function Title() {
         envie a história pra gente!
       </Typography>
       {/* <Typography variant="body1">Divirta-se</Typography> */}
-      <Button>Enviar</Button>
+      <Button onClick={formulario}>Enviar</Button>
     </Box>
   );
 }

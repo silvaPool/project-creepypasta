@@ -23,6 +23,9 @@ import About from "./pages/About";
 import LayoutRoutes from "./components/LayoutRoutes";
 import ProtectedRoute from "./components/ProtectedRoute";
 
+
+
+
 function App() {
   // const [image, setImage] = useState('');
   // const upload = () => {
@@ -45,6 +48,10 @@ function App() {
         </AuthProvider>
       </div>
 
+  
+
+    
+  
       {/* <div className="App">
       <center>
       <input type="file" onChange={(e) => {setImage(e.target.files[0])}}/>
