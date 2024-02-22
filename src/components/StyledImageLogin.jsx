@@ -11,13 +11,13 @@ const StyledImageLogin = styled(Box)`
    height: 100vh; */
    /* padding-top: 125px; */
    /* text-align: center; */
+   
     background-image: url(${Samarinha});
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover; 
    height: 100vh;
    width: 50%;
-   border: 1px solid red;
 }
       
 

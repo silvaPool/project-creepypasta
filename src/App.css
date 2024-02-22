@@ -171,3 +171,23 @@
    button:hover .button-text {
     color: #fff;
    }
+
+   /* HTML: <div class="ribbon">Your text content</div> */
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon {
+  --r:  .6em; /* control the cutout of the ribbon */
+  --s: 1.5em; /* size of the folded part */
+  
+  line-height: 1.8; 
+  padding-inline: 1lh;
+  border-block: var(--s) solid #0005;
+  background: red;
+  clip-path: polygon(100% 0,calc(100% - .5lh) var(--r),calc(100% - 1lh) 0,calc(100% - 1lh) var(--s),1lh var(--s),0 calc(100% - var(--s)),0 100%,.5lh calc(100% - var(--r)),1lh 100%,1lh calc(100% - var(--s)),calc(100% - 1lh) calc(100% - var(--s)),100% var(--s));
+  width: fit-content;
+}
+

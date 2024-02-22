@@ -10,14 +10,14 @@ import { dark } from "@clerk/themes";
 import styled from "styled-components";
 
 
-
-
 function LayoutLogin() {
   const navigate = useNavigate();
 
   return (
     <>
       <StyledLayoutLogin>
+
+     
         <Box
           sx={{
             display: "flex",
@@ -29,8 +29,8 @@ function LayoutLogin() {
           }}
         >
            
-          <Typography sx={{ fontSize: "3.5rem" }}>CreepyPastas</Typography>
-          <Typography sx={{ fontSize: "2rem" }}>
+           <Typography variant="div" className="ribbon" sx={{fontFamily: "Protest Revolution"}}>CreepyPastas</Typography>
+          <Typography sx={{ fontSize: "2rem", fontFamily: "Caveat" }}>
             Contos, histórias, lendas e relatos assustadores. Entre e divirta-se
             no maior acervo de creepyPastas do Brasil.
           </Typography>
@@ -38,6 +38,7 @@ function LayoutLogin() {
           
         </Box>
         
+       
 
         <StyledImageLogin></StyledImageLogin>
       </StyledLayoutLogin>
