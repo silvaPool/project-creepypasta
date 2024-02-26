@@ -34,7 +34,7 @@ function LayoutLogin() {
             Contos, histórias, lendas e relatos assustadores. Entre e divirta-se
             no maior acervo de creepyPastas do Brasil.
           </Typography>
-          <SignInButton afterSignInUrl="/dashboard">Entrar</SignInButton>{" "}
+          <SignInButton afterSignInUrl="/dashboard">Entrar</SignInButton>
           
         </Box>
         

@@ -15,6 +15,8 @@ function Title() {
         alignItems: "center",
         height: "45vh",
         padding: "25px",
+        background: 'black',
+        color: 'white',
       }}
     >
       <Typography variant="h1" sx={{fontFamily: "Protest Revolution"}}>CreepyPastas</Typography>
@@ -30,6 +32,7 @@ function Title() {
         </span>
         <span class="button-text">Enviar</span>
       </button>
+     
     </Box>
   );
 }

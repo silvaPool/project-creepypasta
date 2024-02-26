@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 import { styled } from "styled-components";
 import Samarinha from '../assets/images/samara.jpg';
+import Mao from '../assets/images/maoooo.jpg';
 
 const StyledImageLogin = styled(Box)`
 && {
@@ -12,7 +13,7 @@ const StyledImageLogin = styled(Box)`
    /* padding-top: 125px; */
    /* text-align: center; */
    
-    background-image: url(${Samarinha});
+    background-image: url(${Mao});
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover; 

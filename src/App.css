@@ -2,6 +2,8 @@
  margin: 0;
  padding: 0;
  box-sizing: border-box;
+ /* background-color: black;
+ color: white; */
 }
 
 .book {
@@ -190,4 +192,6 @@
   clip-path: polygon(100% 0,calc(100% - .5lh) var(--r),calc(100% - 1lh) 0,calc(100% - 1lh) var(--s),1lh var(--s),0 calc(100% - var(--s)),0 100%,.5lh calc(100% - var(--r)),1lh 100%,1lh calc(100% - var(--s)),calc(100% - 1lh) calc(100% - var(--s)),100% var(--s));
   width: fit-content;
 }
+
+
 

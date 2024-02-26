@@ -22,6 +22,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import LayoutRoutes from "./components/LayoutRoutes";
 import ProtectedRoute from "./components/ProtectedRoute";
+import { Cookie } from "@mui/icons-material";
+
+import AppCookies from "./components/Cookies";
 
 
 
@@ -48,7 +51,7 @@ function App() {
         </AuthProvider>
       </div>
 
-  
+      
 
     
   

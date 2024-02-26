@@ -41,7 +41,6 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
- 
 }));
 
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
@@ -158,7 +157,7 @@ export default function PrimarySearchAppBar() {
 
   return (
     <Box sx={{ flexGrow: 1}}>
-      <AppBar position="static" sx={{background: 'black'}}>
+      <AppBar position="static" sx={{background: 'black', color: 'white'}}>
         <Toolbar>
           {/* <IconButton
             size="large"
