@@ -171,7 +171,7 @@
    }
    
    button:hover .button-text {
-    color: hsl(151deg 50% 100%);
+    color: hsl(hue, saturation, lightness);
    }
 
    /* HTML: <div class="ribbon">Your text content</div> */
