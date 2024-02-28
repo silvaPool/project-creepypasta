@@ -18,8 +18,8 @@ function Cards() {
         width: "100%",
         margin: "0 auto",
         padding: "5rem",
-        marginTop: "2rem",
-        border: "1px solid red",
+        // marginTop: "2rem",
+        background: 'lch(3% 4 115)',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
@@ -29,13 +29,13 @@ function Cards() {
         <div key={item.id}>
            <Grid item xl={4} md={4}>
             <a>
-              <Card sx={{ maxWidth: 345 }}>
+              <Card >
                 <CardActionArea>
                   <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                       {item.titulo}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+                    <Typography variant="body2" color="hsl(151deg 50% 100%)" sx={{textAlign: 'left'}}>
                       {item.conteudo}
                     </Typography>
                   </CardContent>
@@ -43,10 +43,10 @@ function Cards() {
                 <CardActions>
                   <Button
                     size="small"
-                    color="primary"
+                    variant="text"
                     onClick={() => handleTwitterShare(item.url)}
                   >
-                    kkkkk
+                    Entrar
                   </Button>
                 </CardActions>
               </Card>
