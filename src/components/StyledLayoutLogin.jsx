@@ -11,8 +11,7 @@ const StyledLayoutLogin = styled(Box)`
     height: 100vh;
     color: white;
     text-align: center;
-    background-color: black;
-
+    background-color: hsl(263deg 100% 0%);
   }
 `;
 
