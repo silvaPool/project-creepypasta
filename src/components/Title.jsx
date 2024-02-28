@@ -15,7 +15,7 @@ function Title() {
         alignItems: "center",
         height: "45vh",
         padding: "25px",
-        background: 'black',
+        background: 'lch(50% 120 20)',
         color: 'white',
       }}
     >
