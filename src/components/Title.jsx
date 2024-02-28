@@ -15,8 +15,10 @@ function Title() {
         alignItems: "center",
         height: "45vh",
         padding: "25px",
-        background: 'lch(50% 120 20)',
-        color: 'white',
+        // background: "black",
+        // background: "hsl(60deg 100% 50%)",
+        background: 'lch(3% 4 115)',
+        color: 'hsl(151deg 50% 100%)',
       }}
     >
       <Typography variant="h1" sx={{fontFamily: "Protest Revolution"}}>CreepyPastas</Typography>

@@ -9,7 +9,7 @@ const StyledLayoutLogin = styled(Box)`
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    color: white;
+    color: hsl(151deg 50% 100%);
     text-align: center;
     background-color: hsl(263deg 100% 0%);
   }

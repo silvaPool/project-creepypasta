@@ -25,9 +25,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { Cookie } from "@mui/icons-material";
 
 import AppCookies from "./components/Cookies";
-
-
-
+import { ThemeProvider } from "@mui/material";
+import theme from "./theme/theme";
 
 function App() {
   // const [image, setImage] = useState('');
@@ -42,19 +41,16 @@ function App() {
   return (
     <>
       <div>
-        <AuthProvider>
-          <Routes>
-            <Route path="/" element={<LayoutLogin />} />
-            <Route path="dashboard" element={<LayoutRoutes />} />
-          </Routes>
-
-        </AuthProvider>
+        <ThemeProvider theme={theme}>
+          <AuthProvider>
+            <Routes>
+              <Route path="/" element={<LayoutLogin />} />
+              <Route path="dashboard" element={<LayoutRoutes />} />
+            </Routes>
+          </AuthProvider>
+        </ThemeProvider>
       </div>
 
-      
-
-    
-  
       {/* <div className="App">
       <center>
       <input type="file" onChange={(e) => {setImage(e.target.files[0])}}/>
