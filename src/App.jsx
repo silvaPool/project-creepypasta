@@ -29,6 +29,7 @@ import { ThemeProvider } from "@mui/material";
 import theme from "./theme/theme";
 import UploadIV from "./components/UploadIV";
 import Upload from "./services/Upload";
+import PlaySound from "./services/PlaySound";
 
 function App() {
   // const [image, setImage] = useState('');
@@ -53,7 +54,9 @@ function App() {
         </ThemeProvider>
       </div> */}
 
-    <Upload />
+    {/* <Upload /> */}
+
+    <PlaySound />
 
       {/* <div className="App">
       <center>
