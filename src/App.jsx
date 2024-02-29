@@ -27,6 +27,8 @@ import { Cookie } from "@mui/icons-material";
 import AppCookies from "./components/Cookies";
 import { ThemeProvider } from "@mui/material";
 import theme from "./theme/theme";
+import UploadIV from "./components/UploadIV";
+import Upload from "./services/Upload";
 
 function App() {
   // const [image, setImage] = useState('');
@@ -40,7 +42,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <ThemeProvider theme={theme}>
           <AuthProvider>
             <Routes>
@@ -49,7 +51,9 @@ function App() {
             </Routes>
           </AuthProvider>
         </ThemeProvider>
-      </div>
+      </div> */}
+
+    <Upload />
 
       {/* <div className="App">
       <center>
