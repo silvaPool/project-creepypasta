@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 function Footer() {
     return (
-        <Typography variant="h2" sx={{textAlign: 'center', backgroundColor: 'lch(3% 4 115)', color: 'white'}}>
+        <Typography  sx={{textAlign: 'center', backgroundColor: 'lch(3% 4 115)', color: 'white', fontSize: '1.5rem'}}>
             CreepyPastas.com
         </Typography>
     )

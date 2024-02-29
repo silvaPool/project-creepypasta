@@ -43,7 +43,7 @@ function App() {
 
   return (
     <>
-      {/* <div>
+      <div>
         <ThemeProvider theme={theme}>
           <AuthProvider>
             <Routes>
@@ -52,11 +52,11 @@ function App() {
             </Routes>
           </AuthProvider>
         </ThemeProvider>
-      </div> */}
+      </div>
 
     {/* <Upload /> */}
 
-    <PlaySound />
+    {/* <PlaySound /> */}
 
       {/* <div className="App">
       <center>

@@ -4,42 +4,42 @@ const cards = [
         category: "slasher",
         titulo: "Slasher",
         tituloCard: "Slasher",
-        conteudo: "Seja bem-vindo ao nosso mundo esportivo! Aqui, celebramos a paixão pelo esporte e a busca pela excelência."
+        conteudo: "Bem-vindo ao universo sombrio e intrigante do slasher!"
     },
     {
         id: 2,
         category: "sobrenatural",
         titulo: "Sobrenatural",
         tituloCard: "Sobrenatural",
-        conteudo: "Nosso objetivo é promover a conscientização cívica e encorajar a participação ativa dos cidadãos em nosso país."
+        conteudo: "Junte-se a nós enquanto exploramos o inexplicável, desvendamos enigmas milenares e nos maravilhamos com o sobrenatural."
     },
     {
         id: 3,
         category: "gore",
         titulo: "Gore",
         tituloCard: "Gore",
-        conteudo: "Seja o primeiro a saber as últimas novidades do mundo do cinema e do entretenimento."
+        conteudo: "Com uma coleção de artigos provocativos, análises provocantes e recomendações de filmes e obras, nosso objetivo é oferecer uma visão imersiva do mundo do gore."
     },
     {
         id: 4,
         category: "psicologico",
         titulo: "Psicologico",
         tituloCard: "Psicologico",
-        conteudo: "Acreditamos na importância do jornalismo responsável e ético. Nossas matérias são baseadas em fatos verificados e fontes confiáveis!"
+        conteudo: " Prepare-se para uma jornada de autoconhecimento e descoberta, onde mergulhamos nas profundezas da mente para entender melhor nossas emoções, pensamentos e comportamentos."
     },
     {
         id: 5,
         category: "folklorico",
         titulo: "Folklorico",
         tituloCard: "Folklorico",
-        conteudo: "Exploraremos uma ampla variedade de tópicos, abrangendo desde nutrição e fitness até doenças, medicamentos, terapias alternativas e saúde mental."
+        conteudo: "Com uma variedade de artigos informativos, análises profundas e curiosidades folclóricas, convidamos você a se perder nos encantos e mistérios das tradições populares."
     },
     {
         id: 6,
         category: "comico",
         titulo: "Comico",
         tituloCard: "Comico",
-        conteudo: "Exploraremos uma ampla gama de tópicos, abordando desde smartphones e dispositivos inteligentes até veículos autônomos, cibersegurança!"
+        conteudo: "Desde as mais recentes tendências da comédia até os clássicos atemporais, nosso objetivo é proporcionar um refúgio onde você possa relaxar, soltar o riso e esquecer temporariamente as preocupações do mundo real."
     },
 ]
 

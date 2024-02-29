@@ -16,6 +16,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
 import { UserButton } from '@clerk/clerk-react';
+import PlaySound from '../services/PlaySound';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -212,7 +213,7 @@ export default function PrimarySearchAppBar() {
             >
               <AccountCircle />
             </IconButton> */}
-            <UserButton showName='true' />
+            <UserButton showName='true'/>
           </Box>
           <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
             <IconButton
