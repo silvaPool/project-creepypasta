@@ -30,6 +30,7 @@ import theme from "./theme/theme";
 import UploadIV from "./components/UploadIV";
 import Upload from "./services/Upload";
 import PlaySound from "./services/PlaySound";
+import LayoutHistorias from "./components/LayoutHistorias";
 
 function App() {
   // const [image, setImage] = useState('');
@@ -43,7 +44,7 @@ function App() {
 
   return (
     <>
-      <div>
+      {/* <div>
         <ThemeProvider theme={theme}>
           <AuthProvider>
             <Routes>
@@ -52,7 +53,9 @@ function App() {
             </Routes>
           </AuthProvider>
         </ThemeProvider>
-      </div>
+      </div> */}
+
+      <LayoutHistorias />
 
     {/* <Upload /> */}
 
