@@ -1,11 +1,14 @@
-function LayoutHistorias() {
-    
-    return (
+import { Box } from "@mui/material";
+import StyledBoxHistorias from "./StyledBoxHistorias";
 
-        <div>
-            <p>Matheus</p>
-        </div>
-    )
+function LayoutHistorias() {
+  return (
+    <StyledBoxHistorias>
+      <div>Matheus</div>
+      <div>Matheus</div>
+      <div>Matheus</div>
+    </StyledBoxHistorias>
+  );
 }
 
 export default LayoutHistorias;
