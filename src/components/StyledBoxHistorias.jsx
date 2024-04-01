@@ -8,7 +8,7 @@ const StyledBoxHistorias = styled(Box)`
     flex-direction: column;
     border: 1px solid blue;
     height: 100vh;
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
     
