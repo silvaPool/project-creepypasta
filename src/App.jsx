@@ -50,6 +50,7 @@ function App() {
             <Routes>
               <Route path="/" element={<LayoutLogin />} />
               <Route path="dashboard" element={<LayoutRoutes />} />
+              <Route path="historias" element={<LayoutHistorias />} />
             </Routes>
           </AuthProvider>
         </ThemeProvider>

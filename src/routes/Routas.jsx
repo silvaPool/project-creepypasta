@@ -1,3 +1,4 @@
+import LayoutHistorias from "../components/LayoutHistorias";
 import LayoutLogin from "../components/LayoutLogin";
 import LayoutRoutes from "../components/LayoutRoutes";
 
@@ -10,6 +11,10 @@ const Rota = [
         path: "dashboard",
         element: <LayoutRoutes />,
       },
+      {
+        path: "historias",
+        element: <LayoutHistorias />
+      }
     ],
   },
 ];
