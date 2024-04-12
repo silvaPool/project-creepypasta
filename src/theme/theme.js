@@ -29,6 +29,10 @@ const theme = createTheme({
             styleOverrides: {
                 root: {
                     background: 'linear-gradient(#212121, #212121) padding-box,linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box',
+                    display: 'flex',
+                    flexDirection: 'rown',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
                 },
             },
         },

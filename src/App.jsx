@@ -44,7 +44,7 @@ function App() {
 
   return (
     <>
-      {/* <div>
+      <div>
         <ThemeProvider theme={theme}>
           <AuthProvider>
             <Routes>
@@ -53,9 +53,9 @@ function App() {
             </Routes>
           </AuthProvider>
         </ThemeProvider>
-      </div> */}
+      </div>
 
-      <LayoutHistorias />
+      {/* <LayoutHistorias /> */}
 
     {/* <Upload /> */}
 

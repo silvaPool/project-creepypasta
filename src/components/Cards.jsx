@@ -1,5 +1,6 @@
 import { Box, Button, Card, CardActionArea, CardActions, CardContent, Grid, Typography } from "@mui/material";
 import cards from "../data/Cards";
+import ShareIcon from '@mui/icons-material/Share';
 
 function Cards() {
 
@@ -44,9 +45,12 @@ function Cards() {
                   <Button
                     size="small"
                     variant="text"
-                    onClick={() => handleTwitterShare(item.url)}
                   >
                     Entrar
+                  </Button>
+
+                  <Button>
+                    <ShareIcon />
                   </Button>
                 </CardActions>
               </Card>
