@@ -1,7 +1,11 @@
 import { Box, Grid, Typography } from "@mui/material";
 import StyledBoxHistorias from "./StyledBoxHistorias";
+import {useNavigate} from "react-router-dom";
 
 function LayoutHistorias() {
+
+  const navigate = useNavigate();
+
   return (
     <StyledBoxHistorias>
       <Box sx={{ border: "1px solid red" }}>
@@ -48,6 +52,9 @@ function LayoutHistorias() {
           ffffff
         </Grid>
       </Grid>
+
+    <button onClick={() => navigate("/dashboard")}>Voltar</button>
+      
     </StyledBoxHistorias>
   );
 }
